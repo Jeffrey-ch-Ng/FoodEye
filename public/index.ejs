@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FoodEye</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru" rel="stylesheet">
+
+
+</head>
+<body>
+  <style>
+
+    body{
+      background-color: whitesmoke;
+      color: black;
+      font-family: 'Kosugi Maru', sans-serif;
+      text-align: center;
+    }
+
+    img{
+      width: 30%;
+      height: auto;
+      margin-bottom: 30px;
+    }
+
+    #logo{
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+  
+    button{
+      display: inline-block;
+    }
+  
+  </style>
+  <img id = "logo" src="FoodEye.png" alt="">
+  <h1><%=food%></h1>
+  <img src="changed_pic.jpg" alt="">
+  <br>
+  <button class="btn" onclick="window.location.reload()">Scan</button>
+
+
+
+</body>
+</html>
